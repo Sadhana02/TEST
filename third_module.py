@@ -26,19 +26,19 @@
 # milk_chocolate=chocolate(variety='company product',number=8,name='Milky bar')
 # print(milk_chocolate.name,milk_chocolate.number,milk_chocolate.variety,dark_chocolate.name)
 
-# from collections import Counter
-#
-# b = 'asaddddssd'
-# c = Counter(b)
-# print(dict(c))
-# x =sorted(c.elements())
-# print(x)
-#
-# sentence = 'You cannot belive in god Until you belive in yourself'
-# C= Counter(sentence.split())
-# v=C.most_common()[0]
-# t =C.items()
-# d = list(t)
+from collections import Counter
+
+b = 'asaddddssd'
+c = Counter(b)
+print(dict(c))
+x =sorted(c.elements())
+print(x)
+
+sentence = 'You cannot belive in god Until you belive in yourself'
+C= Counter(sentence.split())
+v=C.most_common()[0]
+t =C.items()
+d = list(t)
 
 from collections import OrderedDict,defaultdict
 books=['Python_book','C_book','C_book','java','Python_book']
